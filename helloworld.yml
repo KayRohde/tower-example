@@ -1,7 +1,7 @@
 ---
 - name: Hello World!
-  hosts: berlin
+  hosts: bear
  
   tasks:
-    - name: Hello World!
+    - name: Test!
       shell: echo "Hi! Tower is working."
