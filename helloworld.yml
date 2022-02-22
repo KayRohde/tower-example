@@ -1,7 +1,6 @@
 ---
 - name: Hello World!
-  hosts: bear
- 
-  tasks:
-    - name: Test!
-      shell: echo "Hi! Tower is working."
+  hosts: 
+    - bear
+  roles:
+    - my_role
